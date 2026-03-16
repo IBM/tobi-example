@@ -1,0 +1,9 @@
+     C/COPY CPYBK1
+     C           *ENTRY    PLIST
+     C                     PARM           PARMIN  10
+     C                     Z-ADD12345     CUSTNO  90
+     C                     MOVEL'JOHN DO' CNAME  25
+     C                     EXSR SHWCST
+     C           *IN99     DSPLY
+     C                     SETON                         LR
+     C/COPY CPYBK2
