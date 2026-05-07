@@ -1,0 +1,7 @@
+     A          R TAB001R                   TEXT('Customer Record')
+     A            CUSTID         5S 0       COLHDG('Customer' 'ID')
+     A            CUSTNAME      30A         COLHDG('Customer' 'Name')
+     A            CITY          20A         COLHDG('City')
+     A            AMOUNT         9P 2       COLHDG('Amount')
+     A            STATUS         1A         COLHDG('Status')
+     A          K CUSTID
