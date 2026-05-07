@@ -1,0 +1,3 @@
+      /COPY CPY01
+     C           WKVAR1    ADD  WKVAR2    WKVAR3  30
+     C                     SETON                         LR
