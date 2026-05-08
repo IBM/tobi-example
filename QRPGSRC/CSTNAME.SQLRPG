@@ -1,0 +1,9 @@
+     C                     MOVEL0         CUSTID  50
+     C/COPY VAR1
+     C/EXEC SQL
+     C+  SELECT CUSTNM
+     C+  INTO   :WKVAR
+     C+  FROM   CUSTTBL
+     C+  WHERE  CUSTID = :CUSTID
+     C/END-EXEC
+     C                     SETON                     LR

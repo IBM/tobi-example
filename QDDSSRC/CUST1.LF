@@ -1,0 +1,8 @@
+     A          R TAB001L                   PFILE(CUST)
+     A            CUSTID
+     A            CUSTNAME
+     A            CITY
+     A            AMOUNT
+     A            STATUS
+     A          K CITY
+     A          K CUSTNAME

@@ -1,0 +1,7 @@
+      *================================================================
+      * COPYBOOK1 - Simple Variables (OPM RPG)
+      *================================================================
+      * Define customer number field
+     C           CUSTNO    COMP 0                    99
+      * Define customer name field
+     C           CNAME     COMP ' '                  99
