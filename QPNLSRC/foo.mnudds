@@ -1,0 +1,11 @@
+     A                                      DSPSIZ(24 80 *DS3)
+     A          R MENU
+     A                                      CF03(03 'Exit')
+     A                                  1  2'Main Menu'
+     A                                      DSPATR(HI)
+     A                                  3  2'Select an option:'
+     A            OPT            1A  B  5  2
+     A                                  7  2'1. Display library list'
+     A                                  8  2'2. Set Current library'
+     A                                 11  2'F3=Exit'
+     A            MSG           50A  O 23  2DSPATR(HI)
